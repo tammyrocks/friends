@@ -164,7 +164,7 @@ class FRIENDS_BOL_Service
             'time' => time()
         );
 
-        $receiver = '<a href="'.$uUrls[$userId].'" target="_blank" >'.$names[$userId].'</a>';
+        $receiver = '<a href="'.$uUrls[$userId].'" target="_self" >'.$names[$userId].'</a>';
 
         $notificationData = array(
             'string' => array(
